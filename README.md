@@ -44,9 +44,12 @@ Metrics Calculation: Compute metrics such as accuracy, precision, recall, and lo
 ## Results
 The performance of the fake audio detection system is evaluated based on the achieved metrics. The system's ability to accurately classify real and fake audio is assessed using various evaluation techniques.
 
-Future Improvements
+## Future Improvements
 Incorporate more advanced deep learning architectures for improved performance.
+
 Explore additional features or data augmentation techniques to enhance model robustness.
+
 Experiment with different preprocessing methods to optimize model training.
-Contributors
+
+## Contributors
 Ramim Ali Siddiqui
