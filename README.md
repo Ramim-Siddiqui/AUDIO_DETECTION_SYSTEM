@@ -4,8 +4,11 @@ This project implements a deep learning-based system for detecting fake audio. T
 
 ## Features
 Audio Preprocessing: Raw audio files are preprocessed to extract spectrograms, which capture the frequency content of the audio signals over time.
+
 Model Training: A CNN model is trained using real and fake audio spectrograms to learn the characteristics of each class.
+
 Model Evaluation: The trained model is evaluated on a separate dataset to assess its performance in detecting fake audio.
+
 Metrics Computation: Metrics such as accuracy, precision, recall, and loss are computed to measure the model's performance.
 
 ## Dataset
@@ -16,17 +19,26 @@ The CNN model architecture used for this project consists of several convolution
 
 ## Dependencies
 Python 3.x
+
 TensorFlow
+
 NumPy
+
 librosa
+
 matplotlib
+
 pydub
 
 ## Usage
 Data Preparation: Organize your real and fake audio files into separate directories.
+
 Data Loading: Load the audio files and preprocess them to extract spectrograms.
+
 Model Training: Train the CNN model using the preprocessed audio spectrograms.
+
 Model Evaluation: Evaluate the trained model on a separate dataset to assess its performance.
+
 Metrics Calculation: Compute metrics such as accuracy, precision, recall, and loss to measure the model's performance.
 
 ## Results
